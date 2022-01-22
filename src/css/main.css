@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap');
+
+body {
+    background: rgb(32, 31, 31);
+    overflow-y:auto;
+    overflow-x:hidden;
+}
+::-webkit-scrollbar {
+    display:none;
+}
+
+* {
+    font-family:Inter;
+    font-weight:normal;
+}
+
+.navbar {
+    background-color:rgb(46, 45, 45);
+    height:90px;
+    width:3999px;
+    position:fixed;
+    bottom:530px;
+    right:0px;
+    z-index:9999;
+}
+.navlogo {
+    position:absolute;
+    left:2660px;
+    margin-top:10px;
+}
+.navimg  {
+    height:105px;
+    transition:all  0.5s ease;
+    cursor:pointer;
+}
+.navimg:hover {
+    transform:translateY(-10px);
+    filter: drop-shadow(0 0 0.75rem rgb(100, 100, 100));
+}
+.navlink {
+    position:relative;
+    float:right;
+    color:white;
+    font-size:35px;
+    text-decoration:none;
+    transition:all 1s ease;
+}
+.navlink:hover {
+    color:rgb(165, 165, 165);
+    text-shadow: rgb(24, 24, 24) 1px 0 10px;
+}
+li {
+    position:relative;
+    margin:0px auto;
+    list-style:none;
+    margin-right:23px;
+    margin-top:12px;
+    cursor:pointer;
+}
+.maincontent {
+    position:relative;
+    margin:0px auto;
+    text-align:center;
+    font-size:25px;
+    top:280px;
+    color:white;
+}
+.muted {
+    color:rgb(107, 107, 107);
+}
+.hq {
+    position:relative;
+    bottom:25px;
+}
+#about {
+    position:absolute;
+    background-color:rgb(22, 22, 22, 0.4);
+    height:250px;
+    width:2000px;
+    right:0px;
+    top:390px;
+}
+.aboutheader {
+    position:absolute;
+    text-align:center;
+    transform: translate(870%, -20%);
+}
+.aboutmain {
+    font-size:30px;
+    position:absolute;
+    transform: translate(60%, 100%);
+    bottom:135px;
+}
+.checkusout {
+    color:rgb(49, 49, 253);
+}
+.logo2 {
+    position:relative;
+    width:300px;
+    margin:-499px 0px 170px auto;
+}
+#themes {
+    margin-top:475px;
+}
+.themesheader {
+    text-align:center;
+    margin-right:55px;
+}
+.abouttheme {
+    position:absolute;
+    transform: translate(54%, 100%);
+    text-align:center;
+    font-size:30px;
+    bottom:410px;
+}
+.theme {
+    background-color:rgb(37, 37, 37);
+    width:750px;
+    height:390px;
+    border-radius:10px;
+    margin-top:90px;
+    margin:0px auto;
+}
+.themelogo img {
+    width:150px;
+    float:left;
+    margin: 5px 5px;
+    filter: drop-shadow(6px 5px 3px rgba(0, 0, 0, 0.5));
+}
+.themelogo {
+    background-color:rgb(46, 46, 46, 0.5);
+    border-top-left-radius:10px;
+    border-bottom-right-radius:5px;
+    width:170px;
+    height:175px;
+}
+.themename h1 {
+    position:absolute;
+    bottom:230px;
+    font-size:60px;
+    margin-left:180px;
+    margin-bottom:90px;
+}
+.themelink {
+    font-size:25px;
+    position:absolute;
+    right:1055px;
+    bottom:300px;
+}
+.link {
+    text-decoration:none;
+    color:rgb(136, 136, 136);
+    left:145px;
+    bottom:0px;
+    position:absolute;
+    width:200px;
+}
+.link:hover {
+    color:rgb(99, 99, 99)
+}
+.preview img:nth-child(1) {
+    height:290px;
+    position:absolute;
+    right:315px;
+    bottom:10px;
+    border-radius:5px;
+}
+.splash:nth-child(2) {
+    position:absolute;
+    right:870px;
+    bottom:10px;
+    height:190px!important;
+}
+footer {
+    text-align:center;
+    background-color:rgb(20, 20, 20);
+    padding:3px;
+    color:rgb(255, 255, 255);
+    position:relative;
+    top:300px;
+    right:10px;
+    width:1365px;
+    font-size:20px;
+}
+footer a {
+    color:rgb(133, 133, 133);
+}
