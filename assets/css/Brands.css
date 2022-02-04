@@ -1,0 +1,52 @@
+.brands {
+  color: #313437;
+  background-color: #fff;
+}
+
+.brands a {
+  display: block;
+  text-align: center;
+  padding: 40px 0;
+}
+
+@media (max-width:767px) {
+  .brands a {
+    padding: 30px 0;
+  }
+}
+
+.brands a img {
+  display: inline-block;
+  margin: 10px 20px;
+  vertical-align: middle;
+}
+
+a {
+}
+
+img {
+  height: 170px!important;
+}
+
+.btn-outline-success {
+  transition: all 0.5s ease-in-out;
+}
+
+.btn-outline-sucess:hover {
+  color: transparent;
+}
+
+.navbar-light .navbar-toggler-icon {
+  /*fill: white!important;*/
+}
+
+.box:hover {
+  transform: scale(1.1);
+  /*transition: transform .5s ease-in-out;*/
+  /*filter: drop-shadow(0 0 0.5rem white);*/
+}
+
+.box {
+  transition: transform .5s ease-in-out;
+}
+
